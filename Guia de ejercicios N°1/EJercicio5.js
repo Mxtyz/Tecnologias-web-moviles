@@ -23,7 +23,7 @@ while (true) {
     alert("El peso ingresado no es valido,intentelo de nuevo");
   } else {
     break;
-  }
+  } 
 }
 
 let IMC = (peso / estatura ** 2).toFixed(2);

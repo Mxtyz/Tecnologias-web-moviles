@@ -46,4 +46,4 @@ agregar_producto(new producto("Producto 4", 4000, 2000));
 agregar_producto(new producto("Producto 5", 5000, 30000));
 agregar_producto(new producto("Producto 6", 6000, 1000));
 
-recorrer_inventario();
+recorrer_inventario(); 

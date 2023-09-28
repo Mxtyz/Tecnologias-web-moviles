@@ -13,3 +13,4 @@ if (/^[a-zA-Z\s]+$/.test(oracion)) {
 } else {
   alert("Error, Ingrese solo oraciones.");
 }
+  

@@ -14,5 +14,5 @@ while (true) {
     break; 
   } else {
     alert("Error, Ingrese SOLO números separados por comas");
-  }
-}
+  } 
+}  

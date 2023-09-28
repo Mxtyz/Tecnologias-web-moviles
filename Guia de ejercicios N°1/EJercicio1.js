@@ -18,7 +18,7 @@ while (true) {
 let numerosPares = 0;
 for (i = 0; i <= numero; i++) {
   if (i % 2 === 0) {
-    numerosPares += i;
+    numerosPares += i;  
   }
 }
 alert(`La suma de los numeros pares del ${numero} es igual a :${numerosPares}`);
