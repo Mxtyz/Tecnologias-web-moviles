@@ -1,0 +1,61 @@
+body {
+    background-image: url('C:\Users\olida\OneDrive\Documentos\Tecnologias Web y moviles\Test de codigos\imagenes xd\fondo.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen en su lugar mientras se desplaza */
+    background-color: #9e7bff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #96c1ec; /* Color de fondo opcional */
+    border: 1px solid #000; /* Borde de 2 píxeles de ancho y color negro (#000) */
+    padding: 50px; /* Relleno interno de 20 píxeles */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+
+/* Estilos para los inputs y selects */
+.form-control,
+.form-select {
+    border-radius: 10px; /* Bordes redondos */
+    margin-bottom: 10px; /* Espacio entre los elementos */
+}
+
+/* Estilo para los botones */
+.btn {
+    border-radius: 10px; /* Bordes redondos */
+}
+
+/* Estilos para el contenedor del formulario */
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espacio interno del contenedor */
+    border: 2px solid #ccc; /* Borde del contenedor */
+    border-radius: 15px; /* Bordes redondos del contenedor */
+}
+
+/* Estilo para los labels */
+.form-label {
+    font-weight: bold; /* Negrita en los labels */
+}
+
+/* Estilos para los mensajes de feedback */
+.valid-feedback,
+.invalid-feedback {
+    display: block; /* Mostrar como bloques para separar de otros elementos */
+}
+
+/* Estilo para el checkbox */
+.form-check-input {
+    margin-top: 5px; /* Ajuste de espacio para el checkbox */
+}
