@@ -1,6 +1,6 @@
 //Integrantes: Cesar Solis, Cristian Aguilar
 import 'package:flutter/material.dart';
-import 'validaciones.dart';
+import 'validar.dart';
 
 void main() => runApp(const MyApp());
 
